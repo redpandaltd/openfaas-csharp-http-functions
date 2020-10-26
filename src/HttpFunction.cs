@@ -93,6 +93,16 @@ namespace Redpanda.OpenFaaS
             return new CreatedResult( location, value );
         }
 
+        protected IActionResult BadRequest()
+        {
+            return new BadRequestResult();
+        }
+
+        protected IActionResult Conflict()
+        {
+            return new ConflictResult();
+        }
+
         protected IActionResult StatusCode( int statusCode )
         {
             return new StatusCodeResult( statusCode );
