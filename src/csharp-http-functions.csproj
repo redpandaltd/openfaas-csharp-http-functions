@@ -8,6 +8,7 @@
     <Authors>Goncalo Oliveira</Authors>
     <Company>RedPanda Ltd</Company>
     <Description>OpenFaaS csharp functions</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
